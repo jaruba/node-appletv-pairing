@@ -41,6 +41,9 @@ const errorHandler = e => console.log(e);
                 commandLine.close();
 
                 process.exit(0);
+            },
+            scrub: () => {
+                atv.scrub(20.097000).catch(e => errorHandler(e))
             }
         }
     );
