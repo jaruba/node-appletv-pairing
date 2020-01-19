@@ -16,7 +16,7 @@
     "js-sha1": "0.4.1",
     "lodash": "4.17.4",
     "yargs": "9.0.1",
-    "browserify-cipher": "1.0.1",
+    "browserify-cipher": "https://github.com/jaruba/browserify-cipher/tarball/master",
     "babel-polyfill": "6.26.0"
   },
   "devDependencies": {
